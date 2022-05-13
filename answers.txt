@@ -1,0 +1,20 @@
+Preguntas:
+
+1.- Investigueu què fan els fitxers package.json i package-lock.json.
+
+- package.json: Basicamente , es el archivo que describe tu projecto
+-package.json lock: Archivo de seguridad que maintiene y asegura que todas las aplicaciones y dependencias que mantengan en la version que se utilizan.
+
+2.- Investigueu què és la carpeta node_modules.
+
+-Node_modules: Son todas las dependencias que tu projecto necesita para funcionar 
+
+2.- Llegir la pàgina 4. D’aquí és important comprendre què són els paràmetres req, res i next.
+
+req: este parametro es la solicitud entrante
+
+res: este parametro es una secuencia de respuesta
+
+next: este parámetro indica que la solicitud es correcta y que está listo para procesarla
+
+

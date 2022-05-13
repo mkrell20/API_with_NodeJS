@@ -11,7 +11,7 @@ function isAuthorized(req,res, next) {
   }
 const port = 3000
 
-const User = require("./models/Users.js");
+const { User } = require("./models");
 
 app.get('/', (req, res) => res.send('Hello World!'))
 
@@ -23,7 +23,7 @@ app.get('/users', isAuthorized, async (req,res) => {
 app.get('/products', (req, res) => {
   res.json([{
     id: 1,
-    name: 'The Bluest Eye'
+    name: 'Users Userson'
   }])
 })
 
